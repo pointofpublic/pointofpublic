@@ -1,0 +1,26 @@
+[Unit]
+Description=PointOfPublicCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=pointofpubliccoin
+Group=pointofpubliccoin
+
+Type=forking
+PIDFile=/var/lib/pointofpubliccoind/pointofpubliccoind.pid
+
+ExecStart=/usr/bin/pointofpubliccoind -daemon -pid=/var/lib/pointofpubliccoind/pointofpubliccoind.pid \
+          -conf=/etc/pointofpubliccoin/pointofpubliccoin.conf -datadir=/var/lib/pointofpubliccoind
+
+ExecStop=-/usr/bin/pointofpubliccoin-cli -conf=/etc/pointofpubliccoin/pointofpubliccoin.conf \
+         -datadir=/var/lib/pointofpubliccoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

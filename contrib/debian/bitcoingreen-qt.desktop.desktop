@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PointOfPublicCoin
+Comment=PointOfPublicCoin P2P Cryptocurrency
+Exec=pointofpubliccoin-qt %u
+Terminal=false
+Type=Application
+Icon=pointofpubliccoin128
+MimeType=x-scheme-handler/pointofpubliccoin;
+Categories=Office;Finance;
+Name[en_US]=pointofpubliccoin-qt.desktop
