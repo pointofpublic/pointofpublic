@@ -164,12 +164,16 @@ public:
         vSeeds.push_back(CDNSSeedData("198.13.38.119", "198.13.38.119"));
         vSeeds.push_back(CDNSSeedData("45.77.21.70", "45.77.21.70"));
         vSeeds.push_back(CDNSSeedData("45.77.130.26", "45.77.130.26"));
-        vSeeds.push_back(CDNSSeedData("167.99.66.174", "167.99.66.174"));
-        vSeeds.push_back(CDNSSeedData("167.99.68.201", "167.99.68.201"));
-        vSeeds.push_back(CDNSSeedData("167.99.66.19", "167.99.66.19"));
-        vSeeds.push_back(CDNSSeedData("167.99.68.119", "167.99.68.119"));
-        vSeeds.push_back(CDNSSeedData("159.65.6.11", "159.65.6.11"));
-        vSeeds.push_back(CDNSSeedData("159.65.2.9", "159.65.2.9"));
+        vSeeds.push_back(CDNSSeedData("45.32.36.18", "45.32.36.18"));
+        vSeeds.push_back(CDNSSeedData("202.182.101.162", "202.182.101.162"));
+        vSeeds.push_back(CDNSSeedData("149.28.31.156", "149.28.31.156"));
+        vSeeds.push_back(CDNSSeedData("45.63.121.56", "45.63.121.56"));
+        vSeeds.push_back(CDNSSeedData("149.28.19.210", "149.28.19.210"));
+        vSeeds.push_back(CDNSSeedData("107.191.53.220", "107.191.53.220"));
+        vSeeds.push_back(CDNSSeedData("45.77.183.241", "45.77.183.241"));
+        vSeeds.push_back(CDNSSeedData("45.76.52.233", "45.76.52.233"));
+        vSeeds.push_back(CDNSSeedData("198.13.37.49", "198.13.37.49"));
+        vSeeds.push_back(CDNSSeedData("45.77.29.239", "45.77.29.239"));
 
         fMiningRequiresPeers           = true;
         fAllowMinDifficultyBlocks      = false;
